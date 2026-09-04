@@ -37,9 +37,9 @@ public class CharacterRearrangement {
 	        else if(x>='0' && x<='9'){
 	            res+=num.get(indn);
 	            indn++;
-	           
+	        } else {
 	            res+=x;
-	        } 
+	        }
 	        
 	    }
 	    System.out.println(res);
